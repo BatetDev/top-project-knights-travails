@@ -1,63 +1,40 @@
-# Webpack Starter Template
+# Knights Travails
 
-A modern, beginner-friendly webpack starter template for JavaScript projects.
+A JavaScript implementation of the Knight's Travails algorithm for The Odin Project.
 
-## ✨ Features
+## 🎯 Project Description
 
-- Webpack 5 with separate dev and prod configs
-- Live reloading with webpack-dev-server
-- ESLint and Prettier integration for code quality and formatting
-- CSS and asset (image, favicon) support
-- Organized folder structure (`src/js`, `src/styles`, `src/assets`)
-- Ready for The Odin Project and similar curricula
+Find the shortest path for a knight to move between any two squares on a chessboard using Breadth-First Search (BFS).
 
-## 🚀 Getting Started
+## 🚀 Usage
 
 ```bash
-# Clone the repo
-git clone [your-repo-url]
-cd webpack-starter-template
-
-# Install dependencies
-npm install
-
-# Start development server
+# Run the algorithm
 npm start
-
-# Build for production
-npm run build
+# or
+node knights.js
 ```
 
-## 🛠️ Code Quality
-
-- **Lint code:**  
-  `npm run lint`
-- **Auto-fix lint errors:**  
-  `npm run lint:fix`
-- **Format code with Prettier:**  
-  `npm run format`
-- **Check formatting:**  
-  `npm run format:check`
-
-## 📁 Folder Structure
+## 📁 Project Structure
 
 ```
-src/
-  js/
-    index.js
-    modules/
-  styles/
-    main.css
-  assets/
-    favicon.ico
-  template.html
-docs/
-  ARCHITECTURE.md
-  DESIGN.md
-  MVP.md
-  ROADMAP.md
+knights-travails/
+├── knights.js         # Main algorithm implementation
+├── package.json       # Project dependencies and scripts
+├── .eslintrc          # ESLint configuration
+├── .prettierrc        # Prettier configuration
+└── .gitignore         # Git ignore rules
 ```
 
-## 📝 License
+## Development
 
-ISC
+- Lint code: npm run lint
+
+- Auto-fix lint errors: npm run lint:fix
+
+- Format code: npm run format
+
+## 📝 Assignment
+
+From The Odin Project JavaScript Course:
+https://www.theodinproject.com/lessons/javascript-knights-travails
